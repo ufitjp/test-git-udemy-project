@@ -21,6 +21,7 @@
 		08C113F3193F8E2C004254AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C113D5193F8E2C004254AC /* UIKit.framework */; };
 		08C113FB193F8E2C004254AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08C113F9193F8E2C004254AC /* InfoPlist.strings */; };
 		08C113FD193F8E2C004254AC /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C113FC193F8E2C004254AC /* Git_TestTests.m */; };
+		08C11408193F9136004254AC /* UFLCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C11407193F9136004254AC /* UFLCourse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		08C113F8193F8E2C004254AC /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		08C113FA193F8E2C004254AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08C113FC193F8E2C004254AC /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		08C11406193F9136004254AC /* UFLCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFLCourse.h; sourceTree = "<group>"; };
+		08C11407193F9136004254AC /* UFLCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFLCourse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				08C113E1193F8E2C004254AC /* UFLAppDelegate.m */,
 				08C113E3193F8E2C004254AC /* Main.storyboard */,
 				08C113E6193F8E2C004254AC /* UFLViewController.h */,
+				08C11406193F9136004254AC /* UFLCourse.h */,
+				08C11407193F9136004254AC /* UFLCourse.m */,
 				08C113E7193F8E2C004254AC /* UFLViewController.m */,
 				08C113E9193F8E2C004254AC /* Images.xcassets */,
 				08C113D8193F8E2C004254AC /* Supporting Files */,
@@ -252,6 +257,7 @@
 			files = (
 				08C113E2193F8E2C004254AC /* UFLAppDelegate.m in Sources */,
 				08C113DE193F8E2C004254AC /* main.m in Sources */,
+				08C11408193F9136004254AC /* UFLCourse.m in Sources */,
 				08C113E8193F8E2C004254AC /* UFLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
